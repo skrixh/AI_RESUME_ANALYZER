@@ -1,0 +1,6 @@
+pdfminer.six
+spacy
+pydantic
+fastapi
+uvicorn
+pymongo
