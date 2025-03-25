@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 def upload_resume(file):
-    url = "http://127.0.0.1:8000/upload_resume"  # Update if FastAPI is running elsewhere
+    url = "http://localhost"  # Update if FastAPI is running elsewhere
     files = {"file": file}
     response = requests.post(url, files=files)
     return response.json()
